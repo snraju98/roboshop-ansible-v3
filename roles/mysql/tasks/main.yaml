@@ -19,7 +19,6 @@
     - botocore
     executable: pip3.9
 - name: start and enable mysql server
-- name: start and enable mysql server
   service:
     state: started
     enabled: yes
